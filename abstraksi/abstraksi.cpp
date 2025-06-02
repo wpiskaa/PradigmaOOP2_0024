@@ -6,10 +6,15 @@ class AbstraksiKlas{
 
     public:
 
-    //method untuk mengisi nilao
+    //method untuk mengisi nilai
     //private member
     void setXU(string a, string b){
         x = a;
         y = b;
+    }
+    //menampilkan nilai
+    void display(){
+        cout << "x = " << x << endl;
+        cout << "y = " << y << endl;
     }
 };
