@@ -8,7 +8,7 @@ class AbstraksiKlas{
 
     //method untuk mengisi nilai
     //private member
-    void setXU(string a, string b){
+    void setXY(string a, string b){
         x = a;
         y = b;
     }
